@@ -1,6 +1,6 @@
 {
     "name": "cryptocloud-api",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Cryptocloud API",
     "devDependencies": {
         "typescript": "^5.5.4"
@@ -11,6 +11,9 @@
     "exports": {
         ".": "./dist/index.js"
     },
+    "repository": {
+        "url": "https://github.com/bazarov392/ts-cc-api"
+    },
     "author": "bazarov392",
     "license": "MIT",
     "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
@@ -20,5 +23,12 @@
         "class-transformer": "^0.5.1",
         "class-validator": "^0.14.2",
         "jsonwebtoken": "^9.0.2"
-    }
+    },
+    "keywords": [
+        "cryptocloud",
+        "cryptocloud-api",
+        "cryptocloud-api-v2",
+        "cryptocurrency",
+        "payment"
+    ]
 }
