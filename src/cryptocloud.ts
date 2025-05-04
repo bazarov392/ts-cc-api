@@ -89,7 +89,7 @@ export class CryptoCloudApi
     async getInvoices(invoiceIds: string[])
     {
         const response = await this.api.post<Response<Invoice[]>>(`/invoice/merchant/info`, {
-            uuid: invoiceIds
+            uuids: invoiceIds
         });
         if (response.status !== 200)
         {
