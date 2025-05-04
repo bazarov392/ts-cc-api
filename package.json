@@ -1,7 +1,7 @@
 {
     "name": "cryptocloud-api",
-    "version": "1.0.2",
-    "description": "Cryptocloud API",
+    "version": "1.0.3",
+    "description": "Cryptocloud API v2",
     "devDependencies": {
         "typescript": "^5.5.4"
     },
@@ -12,7 +12,7 @@
         ".": "./dist/index.js"
     },
     "repository": {
-        "url": "https://github.com/bazarov392/ts-cc-api"
+        "url": "https://github.com/bazarov392/ts-cryptocloud-api-v2"
     },
     "author": "bazarov392",
     "license": "MIT",
