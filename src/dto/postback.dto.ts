@@ -4,7 +4,7 @@ export class PostbackDto
 {
     @IsNotEmpty()
     @IsString()
-    declare invoiceId: string
+    declare invoice_id: string
 
     @IsNotEmpty()
     @IsString()
